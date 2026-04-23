@@ -1,13 +1,13 @@
 {% set name = "aggregate" %}
-{% set version = "0.23.0" %}
+{% set version = "0.24.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aggregate-{{ version }}.tar.gz
-  sha256: 5f365226abcfe185d82e5da4ed17c54cbc9ad3b37f6f3a8b00da9ef2a3748230
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aggregate-{{ version }}.tar.gz
+  sha256: 4837b22d0f578e48929ac8f4046459b8c02681a1934cabe16de0cc2c8a38e2f6
 
 build:
   noarch: python
